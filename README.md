@@ -26,7 +26,7 @@ Tweecho is a social media platform built with the MERN stack (MongoDB, Express, 
 - **Database:** MongoDB
 - **Authentication:** JSON Web Tokens (JWT)
 - **Cloud Storage:** Cloudinary for image uploads
- **Notifications:** Real-time notifications for user activities
+- **Notifications:** Real-time notifications for user activities
   ---
 
 ## Installation
