@@ -27,6 +27,7 @@ Tweecho is a social media platform built with the MERN stack (MongoDB, Express, 
 - **Authentication:** JSON Web Tokens (JWT)
 - **Cloud Storage:** Cloudinary for image uploads
 - **Notifications:** Real-time notifications for user activities
+
   ---
 
 ## Installation
@@ -44,20 +45,17 @@ cd backend
 Install dependencies
 
 npm install
-Create a .env file in the root directory of the backend folder and add the following variables:
-MONGO_URI=
+### Setup .env file
 
-PORT=
-
-JWT_SECRET=
-
-NODE_ENV=
-
-CLOUDINARY_CLOUD_NAME=
-
-CLOUDINARY_API_KEY=
-
-CLOUDINARY_API_SECRET=
+```js
+MONGO_URI=...
+PORT=...
+JWT_SECRET=...
+NODE_ENV=...
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+```
 
 Start the backend server
 npm run dev
